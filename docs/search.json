@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "Projeto 1.html#a-pandemia-de-covid-19",
+    "href": "Projeto 1.html#a-pandemia-de-covid-19",
+    "title": "PRÁTICA ESTATÍSTICA 2",
+    "section": "A pandemia de Covid-19",
+    "text": "A pandemia de Covid-19\nA pandemia de Covid-19 foi um evento inimaginável e surpreendente para todas as pessoas do mundo que obrigou as pessoas a se recolherem do convívio social para resguardar a própria saúde.\n\nDentre os principais impactos dessa pandemia estão:\n\n\nIsolamento social\nTrabalho remoto\nSaúde mental\nAdoção de aulas on-line\nMudanças nos hábitos de saúde\n\n\n\nEsses impactos transformaram a vida das pessoas e aceleraram mudanças nos hábitos sociais e profissionais, algumas das quais permaneceram até mesmo após o fim da pandemia."
+  },
+  {
+    "objectID": "Projeto 1.html#objetivo-da-pesquisa",
+    "href": "Projeto 1.html#objetivo-da-pesquisa",
+    "title": "PRÁTICA ESTATÍSTICA 2",
+    "section": "Objetivo da pesquisa",
+    "text": "Objetivo da pesquisa\n\nInvestigar fatores associados às mudanças alimentares e comportamentais durante a pandemia.\nIdentificar padrões de mudança no comportamento alimentar.\nInvestigar possíveis mudanças alimentares segundo características sociodemográficas e econômicas.\nInvestigar possíveis associações entre características antropométricas.\nComparar os padrões de aumento, redução ou manutenção do consumo entre diferentes tipos de alimentos.\nExplorar possíveis fatores associados às alterações de hábitos alimentares e comportamentais observadas durante a pandemia.\n\n\nPor fim, o estudo procura criar evidências que colaborem para a compreensão da mudança de comportamento alimentar durante a pandemia de Covid-19 e os fatores associados à essas alterações."
+  },
+  {
+    "objectID": "Projeto 1.html#a-origem-dos-dados",
+    "href": "Projeto 1.html#a-origem-dos-dados",
+    "title": "PRÁTICA ESTATÍSTICA 2",
+    "section": "A origem dos dados",
+    "text": "A origem dos dados\n\nQuestionário on-line realizado no ano de 2022\nColetados por alunas do curso de pós-graduação em Nutrição da Universidade Federal Fluminense (UFF)\nReúne informações de 2.155 indivíduos adultos\n\nSobre as variáveis:\n\nVARIÁVEL RESPOSTA:\n\nPlanejamento do Cardápio\n\nVARIÁVEIS QUANTITATIVAS:\n\nIdade, Peso, Altura, IMC\n\nVARIÁVEIS QUALITATIVAS:\n\nGênero\nRaça\nRegião\nIsolamento\nSituação de Trabalho\nRenda familiar\nEscolaridade\nCovid\nConsulta ao Nutricionista\nDificuldade Financeira\nCigarro\nAnsiedade\nDepressão\nInsônia\nEnxaqueca"
+  },
+  {
+    "objectID": "Projeto 1.html#métodos-estatísticos-utilizados",
+    "href": "Projeto 1.html#métodos-estatísticos-utilizados",
+    "title": "PRÁTICA ESTATÍSTICA 2",
+    "section": "Métodos Estatísticos Utilizados",
+    "text": "Métodos Estatísticos Utilizados\nVariáveis Quantitativas\nPara as variáveis quantitativas foram usados os seguintes métodos estatísticos:\n\nTeste de Normalidade\nTeste de Levene\nANOVA Tradicional e ANOVA de Welch\nTeste de Tukey e Teste de Gamess-Howell\n\nVariáveis Qualitativas\nPara as variáveis qualitativas foram usados os seguintes métodos estatísticos:\n\nTeste de Qui-Quadrado de Independência\nCoeficiente de Cramér\n\n\nOBS: Para todos os testes realizados, foi considerado um nível de significância de 5%"
+  },
+  {
+    "objectID": "Projeto 1.html#variáveis-quantitativas-1",
+    "href": "Projeto 1.html#variáveis-quantitativas-1",
+    "title": "PRÁTICA ESTATÍSTICA 2",
+    "section": "Variáveis Quantitativas",
+    "text": "Variáveis Quantitativas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariáveis\n\nPlanejamento do Cardápio\n\np-value\nComparações Múltiplas\n\n\nAumentou732 (35%)\nDiminuiu247 (12%)\nNão alterou796 (38%)\nNão tenho o hábito346 (16%)\n\n\n\n\nAlturaA\n1.65 (0.08)\n1.66 (0.09)\n1.66 (0.09)\n1.66 (0.08)\n0.380\n\n\n\n\nIdadeW\n35 (12)\n34 (13)\n36 (13)\n32 (11)\n&lt;0.001\nAumentou e não tenho o hábito,Não alterou e não tenho o hábito\n\n\nPesoW\n70 (15)\n74 (19)\n70 (16)\n71 (16)\n0.007\nAumentou e diminuiu,Diminuiu e não alterou\n\n\nIMCW\n25.5 (5.1)\n26.7 (5.6)\n25.2 (4.8)\n25.7 (5.4)\n0.003\nAumentou e diminuiu,Diminuiu e não alterou"
+  },
+  {
+    "objectID": "Projeto 1.html#variáveis-qualitativas-1",
+    "href": "Projeto 1.html#variáveis-qualitativas-1",
+    "title": "PRÁTICA ESTATÍSTICA 2",
+    "section": "Variáveis Qualitativas",
+    "text": "Variáveis Qualitativas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariáveis\n\nPlanejamento com o Cardápio\n\np-value\nCramér\n\n\nAumentou732 (35%)\nDiminuiu247 (12%)\nNão alterou796 (38%)\nNão tenho o hábito346 (16%)\n\n\n\n\nGêneroQ\n\n\n\n\n\n\n\n\n0.072\n0.057\n\n\n    Feminino\n570 (36%)\n184 (12%)\n573 (36%)\n258 (16%)\n\n\n\n\n\n\n    Masculino\n162 (30%)\n63 (12%)\n223 (42%)\n88 (16%)\n\n\n\n\n\n\nRaça ou corQ\n\n\n\n\n\n\n\n\n0.703\n0.032\n\n\n    Branca\n472 (35%)\n150 (11%)\n500 (38%)\n208 (16%)\n\n\n\n\n\n\n    Outros\n22 (34%)\n7 (11%)\n29 (45%)\n7 (11%)\n\n\n\n\n\n\n    Parda\n188 (33%)\n67 (12%)\n210 (37%)\n102 (18%)\n\n\n\n\n\n\n    Preta\n50 (31%)\n23 (14%)\n57 (36%)\n29 (18%)\n\n\n\n\n\n\nRegiãoQ\n\n\n\n\n\n\n\n\n0.014\n0.063\n\n\n    Centro-oeste\n78 (37%)\n17 (8.0%)\n75 (35%)\n43 (20%)\n\n\n\n\n\n\n    Nordeste\n87 (33%)\n38 (14%)\n96 (36%)\n43 (16%)\n\n\n\n\n\n\n    Norte\n86 (29%)\n36 (12%)\n131 (44%)\n47 (16%)\n\n\n\n\n\n\n    Sudeste\n293 (33%)\n114 (13%)\n339 (38%)\n145 (16%)\n\n\n\n\n\n\n    Sul\n188 (42%)\n42 (9.3%)\n155 (34%)\n68 (15%)\n\n\n\n\n\n\nIsolamentoQ\n\n\n\n\n\n\n\n\n&lt;0.001\n0.110\n\n\n    Não\n286 (30%)\n93 (9.9%)\n403 (43%)\n156 (17%)\n\n\n\n\n\n\n    Sim\n446 (38%)\n154 (13%)\n393 (33%)\n190 (16%)\n\n\n\n\n\n\nTrabalhaQ\n\n\n\n\n\n\n\n\n0.133\n0.051\n\n\n    Não\n184 (33%)\n79 (14%)\n198 (36%)\n94 (17%)\n\n\n\n\n\n\n    Sim\n548 (35%)\n168 (11%)\n598 (38%)\n252 (16%)\n\n\n\n\n\n\nRenda familiarQ\n\n\n\n\n\n\n\n\n&lt;0.001\n0.103\n\n\n    até R$ 1254,00\n67 (29%)\n53 (23%)\n70 (30%)\n45 (19%)\n\n\n\n\n\n\n    entre 1255 a R$ 8640\n412 (34%)\n143 (12%)\n453 (38%)\n199 (16%)\n\n\n\n\n\n\n    mais de R$ 8.640\n253 (37%)\n51 (7.5%)\n273 (40%)\n102 (15%)\n\n\n\n\n\n\nEscolaridadeQ\n\n\n\n\n\n\n\n\n&lt;0.001\n0.093\n\n\n    Ensino Médio Completo\n220 (30%)\n96 (13%)\n268 (36%)\n151 (21%)\n\n\n\n\n\n\n    Ensino Superior Completo\n128 (31%)\n62 (15%)\n158 (38%)\n64 (16%)\n\n\n\n\n\n\n    Pós-graduação\n384 (39%)\n89 (9.1%)\n370 (38%)\n131 (13%)\n\n\n\n\n\n\nCovidQ\n\n\n\n\n\n\n\n\n0.449\n0.035\n\n\n    Não\n549 (36%)\n178 (12%)\n570 (37%)\n248 (16%)\n\n\n\n\n\n\n    Sim\n183 (32%)\n69 (12%)\n226 (39%)\n98 (17%)\n\n\n\n\n\n\nConsulta ao nutricionistaQ\n\n\n\n\n\n\n\n\n&lt;0.001\n0.099\n\n\n    Não\n564 (33%)\n208 (12%)\n643 (37%)\n305 (18%)\n\n\n\n\n\n\n    Sim\n168 (42%)\n39 (9.7%)\n153 (38%)\n41 (10%)\n\n\n\n\n\n\nDificuldade financeiraQ\n\n\n\n\n\n\n\n\n&lt;0.001\n0.166\n\n\n    Não\n585 (34%)\n169 (9.7%)\n707 (41%)\n278 (16%)\n\n\n\n\n\n\n    Sim\n147 (38%)\n78 (20%)\n89 (23%)\n68 (18%)\n\n\n\n\n\n\nCigarroQ\n\n\n\n\n\n\n\n\n0.499\n0.033\n\n\n    Não\n692 (34%)\n234 (12%)\n765 (38%)\n328 (16%)\n\n\n\n\n\n\n    Sim\n40 (39%)\n13 (13%)\n31 (30%)\n18 (18%)\n\n\n\n\n\n\nAnsiedadeQ\n\n\n\n\n\n\n\n\n&lt;0.001\n0.123\n\n\n    Não\n373 (34%)\n93 (8.5%)\n458 (42%)\n167 (15%)\n\n\n\n\n\n\n    Sim\n359 (35%)\n154 (15%)\n338 (33%)\n179 (17%)\n\n\n\n\n\n\nDepressãoQ\n\n\n\n\n\n\n\n\n&lt;0.001\n0.121\n\n\n    Não\n624 (35%)\n183 (10%)\n699 (39%)\n278 (16%)\n\n\n\n\n\n\n    Sim\n108 (32%)\n64 (19%)\n97 (29%)\n68 (20%)\n\n\n\n\n\n\nInsôniaQ\n\n\n\n\n\n\n\n\n&lt;0.001\n0.110\n\n\n    Não\n643 (35%)\n191 (10%)\n711 (39%)\n293 (16%)\n\n\n\n\n\n\n    Sim\n89 (31%)\n56 (20%)\n85 (30%)\n53 (19%)\n\n\n\n\n\n\nEnxaquecaQ\n\n\n\n\n\n\n\n\n0.030\n0.065\n\n\n    Não\n619 (34%)\n202 (11%)\n703 (39%)\n291 (16%)\n\n\n\n\n\n\n    Sim\n113 (37%)\n45 (15%)\n93 (30%)\n55 (18%)"
+  }
+]
