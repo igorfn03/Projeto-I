@@ -157,7 +157,7 @@ Para as variáveis quantitativas foram usados os seguintes métodos estatístico
 
 - ANOVA Tradicional e ANOVA de Welch
 
-- Teste de Levene e Teste de Gamess-Howell
+- Teste de Tukey e Teste de Gamess-Howell
 
 ### Variáveis Qualitativas
 
@@ -255,7 +255,9 @@ tbl_summary(data = DadosQuanti,
   )
 ```
 
-## Variáveis Qualitativas {.scrollable}
+## Variáveis Qualitativas {.smaller}
+
+::: {.gt-scroll-container}
 
 ```{r}
 DadosQuali = Dados |> select(Planejamento_Cardapio,
@@ -350,16 +352,125 @@ tbl_summary(data=DadosQuali,
       )
   ) |> 
   modify_footnote(everything() ~ NA)|>
-  as_gt() |>                   
-  fmt_markdown(columns = label) |>
+  as_gt() |>  
+  fmt_markdown(columns = label) |> 
+  tab_style(
+    style = cell_text(color = "red", weight = "bold"),
+    locations = cells_body(
+      columns = stat_1,
+      rows = (
+        (variable == "Regiao" & label == "Norte") |
+          (variable == "Isolamento" & label == "Não") |
+          (variable == "Renda_familiar" & label == "até R$ 1254,00") |
+          (variable == "Escolaridade" & label == "Ensino Médio Completo") |
+          (variable == "Consulta_Nutricionista" & label == "Não")
+      )
+    )
+  ) |> 
+  tab_style(
+    style = cell_text(color = "blue", weight = "bold"),
+    locations = cells_body(
+      columns = stat_1,
+      rows = (
+        (variable == "Regiao" & label == "Sul") |
+          (variable == "Isolamento" & label == "Sim") |
+          (variable == "Escolaridade" & label == "Pós-graduação") |
+          (variable == "Consulta_Nutricionista" & label == "Sim")
+      )
+    )
+  ) |> 
+  tab_style(
+    style = cell_text(color = "red", weight = "bold"),
+    locations = cells_body(
+      columns = stat_2,
+      rows = (
+        (variable == "Isolamento" & label == "Não") |
+          (variable == "Escolaridade" & label == "Pós-graduação") |
+          (variable == "Dificuldade_Financeira" & label == "Não") |
+          (variable == "Ansiedade" & label == "Não") |
+          (variable == "Depressao" & label == "Não") |
+          (variable == "Insonia" & label == "Não")
+      )
+    )
+  ) |> 
+  tab_style(
+    style = cell_text(color = "blue", weight = "bold"),
+    locations = cells_body(
+      columns = stat_2,
+      rows = (
+        (variable == "Isolamento" & label == "Sim") |
+          (variable == "Renda_familiar" & label == "até R$ 1254,00") |
+          (variable == "Escolaridade" & label == "Ensino Superior Completo") |
+          (variable == "Dificuldade_Financeira" & label == "Sim") |
+          (variable == "Ansiedade" & label == "Sim") |
+          (variable == "Depressao" & label == "Sim") |
+          (variable == "Insonia" & label == "Sim")
+      )
+    )
+  ) |> 
+  tab_style(
+    style = cell_text(color = "blue", weight = "bold"),
+    locations = cells_body(
+      columns = stat_3,
+      rows = (
+        (variable == "Regiao" & label == "Norte") |
+          (variable == "Isolamento" & label == "Não") |
+          (variable == "Consulta_Nutricionista" & label == "Não") |
+          (variable == "Dificuldade_Financeira" & label == "Não") |
+          (variable == "Ansiedade" & label == "Não") |
+          (variable == "Depressao" & label == "Não") |
+          (variable == "Insonia" & label == "Não") |
+          (variable == "Enxaqueca" & label == "Não")
+      )
+    )
+  ) |>
+  tab_style(
+    style = cell_text(color = "red", weight = "bold"),
+    locations = cells_body(
+      columns = stat_3,
+      rows = (
+        (variable == "Isolamento" & label == "Sim") |
+          (variable == "Renda_familiar" & label == "até R$ 1254,00") |
+          (variable == "Consulta_Nutricionista" & label == "Sim") |
+          (variable == "Dificuldade_Financeira" & label == "Sim") |
+          (variable == "Ansiedade" & label == "Sim") |
+          (variable == "Depressao" & label == "Sim") |
+          (variable == "Insonia" & label == "Sim") |
+          (variable == "Enxaqueca" & label == "Sim")
+      )
+    )
+  ) |> 
+  tab_style(
+    style = cell_text(color = "blue", weight = "bold"),
+    locations = cells_body(
+      columns = stat_4,
+      rows = (
+        (variable == "Escolaridade" & label == "Ensino Médio Completo") |
+          (variable == "Depressao" & label == "Sim")
+      )
+    )
+  ) |>
+  tab_style(
+    style = cell_text(color = "red", weight = "bold"),
+    locations = cells_body(
+      columns = stat_4,
+      rows = (
+        (variable == "Escolaridade" & label == "Pós-graduação") |
+          (variable == "Depressao" & label == "Não")
+      )
+    )
+  ) |> 
   tab_options(
     table.font.size = "20px",    
     heading.title.font.size = "26px",
     column_labels.font.size = "22px",
-    container.height = px(600),
-  container.overflow.y = "auto"
+    container.height = px(550),
+    container.overflow.y = TRUE,
+    container.overflow.x = TRUE
   )
 ```
+
+:::
 
 #  {data-background-image="Imagem 2.jpg"}
 ::: box-white
